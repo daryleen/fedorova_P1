@@ -1,0 +1,16 @@
+# УВВ-111
+# Федорова Д
+# Практика 1
+# В консоль вводится метраж в кв.м.
+# Выводятся итоговые суммы:
+# "The final price is: {итоговая сумма} $."
+# "The discount is: {скидка} $."
+# Выводиться должно 2 знака после точки.
+import math
+footage = float(input("Enter the footage: "))
+price = 7.61 * footage
+discount = price / 100 * 18
+final_price = "%.2f" % (price - discount)
+discount = "%.2f" % discount
+print(f"The final price is: {final_price} $.")
+print(f"The discount is: {discount} $.")
