@@ -1,0 +1,8 @@
+# УВВ-111
+# Федорова Д
+# Практика 1
+# Напишите консольную программу, которая переводит значения из рублей
+# в доллары по курсу 68.33.
+import math
+rubles = float(input("Enter the amount to be converted in rubles: "))
+print("%.2f" % (rubles * 68.33))
